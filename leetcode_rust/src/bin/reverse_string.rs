@@ -2,7 +2,8 @@
 
 fn main() {
     let mut s = vec!['h', 'e', 'l', 'l', 'o'];
-    println!("{:?}", Solution::reverse_string(&mut s));
+    Solution::reverse_string(&mut s);
+    println!("{:?}", s);
 }
 
 struct Solution;
