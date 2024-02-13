@@ -1,4 +1,4 @@
-use std::{result, vec};
+use std::vec;
 
 // 2706. Buy Two Chocolates
 fn main () {
@@ -15,7 +15,7 @@ impl Solution {
         
         vec.sort();
 
-        let mut min = vec[0] + vec[1];
+        let min = vec[0] + vec[1];
 
         if money < min {
             return money;
